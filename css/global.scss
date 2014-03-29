@@ -10,20 +10,31 @@
 element.style {
 display: block;
 }
-body{background-color:#9A9CA1;
-margin:0;
-color:#ffffff;
-font-size: 1.125em; /* 18px / 16px */
-   line-height: 1.7em;
 
+body {
+     background-color:#9A9CA1;
+     margin:0;
+     color:#ffffff;
+     font-size: 1.125em; /* 18px / 16px */
+     line-height: 1.7em;
 }
 
 div.columns {
-padding-top: 2em;
-padding-bottom: 2em;
+      padding-top: 2em;
+      padding-bottom: 2em;
 }
-a{color:black;}
-a:hover{color:black;}
+a {
+      color:black;
+}
+a:hover{
+      color:#EB170C
+}
+.button.alert{
+       background-color: #f04124;
+}
+.button.alert a:hover{
+	background-color: #cf280e;
+}
 
 .Acanvas{margin:40px;}
 
@@ -138,7 +149,6 @@ header.band {
 	text-align: center;
 	padding: 30% 0 25% 0;
 	z-index:-2;
-	
 	margin-bottom: 1em;
 }
 
