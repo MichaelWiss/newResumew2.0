@@ -91,9 +91,8 @@ left: 0;}
         -o-transition: 0.15s ease;
         transition: 0.15s ease;
    }
-   #menu a:hover{background-color:red;}
-
-    #menu.active {
+#menu li a:hover{color:#EB170C}
+#menu.active {
         background: #D6D5CE;
         -webkit-transform: translate(-13.755em, 0px);
         -moz-transform: translate(-13.755em, 0px);
@@ -110,7 +109,7 @@ left: 0;}
 .menu-link {
       position: absolute;
       top: 35px;
-      left: -75px;
+      left: -60px;
 }
 div.band .columns {
 	padding-top: 1em;
